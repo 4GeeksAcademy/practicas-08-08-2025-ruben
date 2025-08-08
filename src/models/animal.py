@@ -5,7 +5,7 @@ class Animal:
         self.type = type
         self.age = age
 
-    def serialaizer(self):
+    def serializer(self):
         return{
         "id": self.id,
         "name": self.name,
